@@ -1,0 +1,36 @@
+#container{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    align-items: center;
+}
+
+#heading{
+
+  text-align: center;
+  font-family: cursive;
+}
+
+p{
+    text-align: center;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+p::before{
+    content: "Title: ";
+    font-weight: bolder; 
+    text-decoration: underline;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+body{
+    background-color: blanchedalmond;
+}
